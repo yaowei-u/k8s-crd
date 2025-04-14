@@ -1,0 +1,11 @@
+2025-04-11 17:59:28 - 删除 Taint 菜单选项: 0 '删除所有 Taints' 1 'r=5:NoSchedule' 2 'l=2:NoSchedule'
+
+Expected 2 arguments, found extra 1.
+Use --help to list options.
+
+
+2025-04-11 17:59:28 - 用户选择: 
+2025-04-11 18:00:34 - 删除 Taint 菜单选项: 0 删除所有Taints 1 r=5:NoSchedule 2 l=2:NoSchedule
+02025-04-11 18:00:43 - 用户选择: 
+2025-04-11 18:01:06 - 删除 Taint 菜单选项: 0 删除所有Taints 1 r=5:NoSchedule 2 l=2:NoSchedule
+22025-04-11 18:01:09 - 用户选择: 

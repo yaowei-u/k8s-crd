@@ -1,0 +1,5 @@
+2025-04-11 18:16:43 - 删除 Taint 菜单选项: 0 删除所有Taints 1 r=5:NoSchedule 2 l=2:NoSchedule
+2025-04-11 18:16:47 - 用户选择: 1
+2025-04-11 18:16:56 - 删除 Taint 菜单选项: 0 删除所有Taints 1 l=2:NoSchedule
+2025-04-11 18:16:57 - 用户选择: 0
+2025-04-11 18:42:50 - 添加 Taint: minikube - {'key': 'h', 'value': '1', 'effect': 'NoSchedule'}

@@ -1,0 +1,14 @@
+apiVersion: stable.example.com/v1
+kind: AppConfig
+metadata:
+  name: nginx-config
+spec:
+  appName: nginx
+  replicas: 2
+  image: nginx:latest
+  port: 80
+  env:
+    - name: NGINX_PORT
+      value: "80"
+    - name: NGINX_HOST
+      value: "example.com"

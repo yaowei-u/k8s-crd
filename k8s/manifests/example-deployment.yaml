@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-deployment
+  labels:
+    app: simple
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple
+  template:
+    metadata:
+      labels:
+        app: simple
+    spec:
+      containers:
+      - name: sleeper
+        image: busybox
+        command: ['sh', '-c', 'while true; do sleep 3600; done']
+      tolerations:
+      - key: "sg"
+        operator: "Equal"
+        value: "01"
+        effect: "NoSchedule"
